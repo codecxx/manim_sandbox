@@ -1,11 +1,11 @@
 import numpy as np
 import os
 
-MEDIA_DIR = ""
-VIDEO_DIR = ""
-VIDEO_OUTPUT_DIR = ""
-TEX_DIR = ""
-TEXT_DIR = ""
+MEDIA_DIR = r"C:\FromLaptop\media"
+VIDEO_DIR = r"C:\FromLaptop\media\videos"
+VIDEO_OUTPUT_DIR = r"C:\FromLaptop\media\videos"
+TEX_DIR = r"C:\FromLaptop"
+TEXT_DIR = r"C:\FromLaptop"
 
 
 def initialize_directories(config):
@@ -26,7 +26,8 @@ def initialize_directories(config):
                 "Dropbox (3Blue1Brown)/3Blue1Brown Team Folder"
             )
         if not os.path.isdir(MEDIA_DIR):
-            MEDIA_DIR = os.path.join(os.getcwd(), "media")
+            #MEDIA_DIR = os.path.join(os.getcwd(), "media")
+            MEDIA_DIR = "C:\FromLaptop\media"
         print(
             f"Media will be written to {MEDIA_DIR + os.sep}. You can change "
             "this behavior with the --media_dir flag."
