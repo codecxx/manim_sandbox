@@ -1,0 +1,1 @@
+python C:\FromLaptop\manim_sandbox\manim.py C:\FromLaptop\manim_sandbox\chenxiaoxiannb\Gaokao_Math.py  -pm

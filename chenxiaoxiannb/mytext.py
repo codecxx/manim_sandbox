@@ -160,8 +160,8 @@ class MyExam1(Scene):
 
 class MyExam3(Scene):
     def construct(self):
-        basel = TextMobject("借款还款计划客户空间和空间好看回来很厉害两节课换行理论和就会加快理论结合厉害厉害厉害健康和黑龙江回家了回来很快就会客家话健康和进口红酒看好了和厉害厉害和厉害了和")
-
+        basel = TextMobject("{\LARGE 借款还款计划客户空间和空间好看回来很厉害两节课换行理论和就会加快理论结合厉害厉害厉害健康和黑龙江回家了回来很快就会客家话健康和进口红酒看好了和厉害厉害和厉害了和}")
+        basel = basel.set_width(8)
         self.play(
             Write(basel),
         )
